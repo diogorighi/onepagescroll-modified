@@ -136,7 +136,7 @@
           pos = 0;
           next = $(settings.sectionContainer + "[data-index='1']");
         } else {
-          if(!footerIsShowing) {
+          if(!settings.footerIsShowing) {
             settings.footerIsShowing = true;
             $("[data-index=" + settings.totalPages + "]").animate({
               marginTop: -settings.footerHeight
